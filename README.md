@@ -10,6 +10,12 @@ Install the dependencies:
 npm install --force
 ```
 
+Patch react-query with compiled version:
+
+```bash
+cp patches/@tanstack+react-query+5.35.1+build+useMutation.js node_modules/@tanstack/react-query/build/modern/useMutation.js
+```
+
 Run the development server:
 
 ```bash
